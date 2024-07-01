@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Profile</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgba(100, 148, 237, 0.856);
+        }
+
+        header {
+            background-color: #aca6a6;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header img {
+            width: 150px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            margin-bottom: 5px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+        }
+
+        .about-me img {
+            width: 100%;
+            max-width: 600px;
+            display: block;
+            margin: 0 auto 10px auto;
+        }
+
+        .about-me p,
+        .contact ul li {
+            line-height: 1.5;
+        }
+
+        .contact ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .contact ul li a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        .contact ul li a:hover {
+            color: #8fe07a;
+        }
+
+        footer {
+            background-color: #f8d9d9;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/Roy.jpeg" alt="Roy George Chege">
+        <h1>Mwaniki Roy George Chege</h1>
+        <p>Clinical Officer</p>
+    </header>
+
+    <main>
+        <section class="about-me">
+            <h2>About Me</h2>
+            <img src="images/Background.jpg" alt="Background Image">
+            <p>Roy is a dedicated advocate for universal healthcare and community well-being, armed with a Bachelor's in Clinical Medicine and Community Health. As the founder of Transcendence Kenya and co-founder of Bit & Crunch, I am deeply committed to driving positive change through innovative solutions.</p>
+            <p>Beyond my professional pursuits, I am a writer and researcher. I weave narratives that go beyond statistics, aiming to connect hearts to the cause of accessible healthcare. My passion for healthcare extends beyond the pages; I am an active member of Rotary International, currently serving as the charter president of the Rotaract Club of Murang'a. Additionally, as an engaged Red Cross Kenya volunteer, I contribute to emergency response efforts and community resilience.</p>
+            <p>Driven by the belief that transformative change starts at the community level, I've spent years actively promoting health for all awareness and leveraging my skills to make a tangible impact. Alongside my advocacy and organizational roles, I actively engage in writing and research to amplify the voices of those impacted by healthcare disparities.</p>
+            <p>My mission is clear: to see lives transformed through accessible healthcare and education. I'm eager to connect with like-minded individuals, organizations, and collaborators who share a vision for a healthier, more empowered world. Let's collaborate to make a lasting impact together.</p>
+        </section>
+
+        <section class="skills">
+            <h2>Skills</h2>
+            <h3>Technical Skills</h3>
+            <ul>
+                <li>Medical diagnostics</li>
+                <li>Patient care management</li>
+                <li>Medical research</li>
+                <li>Electronic health records (EHR) systems</li>
+            </ul>
+            <h3>Non-technical Skills</h3>
+            <ul>
+                <li>Communication</li>
+                <li>Empathy</li>
+                <li>Teamwork</li>
+                <li>Critical thinking</li>
+                <li>Problem-solving</li>
+                <li>Writing</li>
+                <li>Reading comprehension</li>
+            </ul>
+        </section>
+
+        <section class="experience">
+            <h2>Experience</h2>
+            <h3>Job Titles</h3>
+            <ul>
+                <li>Medical Doctor at Kikkuyu Mission Hospital, 2020-2023</li>
+                <li>Research Fellow at JKUAT, 2019</li>
+            </ul>
+            <h3>Companies</h3>
+            <ul>
+                <li>St. Peters Orthopedic and Surgical Centre</li>
+            </ul>
+            <h3>Job Descriptions</h3>
+            <ul>
+                <li>As a Medical Doctor, provided primary healthcare services, diagnosed and treated patients, and managed their care plans.</li>
+                <li>Conducted research on contraceptive uses among campus students, published findings in medical journals, and presented at conferences as a Research Fellow.</li>
+            </ul>
+        </section>
+
+        <section class="education">
+            <h2>Education</h2>
+            <ul>
+                <li>Degree in Medicine, JKUAT, 2019</li>
+            </ul>
+        </section>
+
+        <section class="contact">
+            <h2>Contact</h2>
+            <ul>
+                <li><a href="mailto:roygchege@gmail.com">Email: roygchege@gmail.com</a></li>
+                <li><a href="https://www.linkedin.com/in/roy-chege-336408205/" target="_blank">LinkedIn: https://www.linkedin.com/in/roy-chege-336408205/</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mwaniki Roy George Chege</p>
+    </footer>
+</body>
+</html>
